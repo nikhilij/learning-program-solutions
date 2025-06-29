@@ -19,10 +19,17 @@ This repository contains weekly assignments and solutions for the Cognizant lear
   - Exercise 1: Singleton Pattern Example
   - Exercise 2: Factory Method Pattern Example
 
-### Future Weeks
-- Week 2: *To be added*
-- Week 3: *To be added*
-- Week 4: *To be added*
+### Week 2
+- *Ready for new assignments*
+- See `week2/README.md` for details
+
+### Week 3  
+- *Ready for new assignments*
+- See `week3/README.md` for details
+
+### Week 4
+- *Ready for new assignments*
+- See `week4/README.md` for details
 
 ## How to Run
 
