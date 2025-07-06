@@ -1,0 +1,43 @@
+Week 3 - Entity Framework Core 8.0 Hands-On Labs Summary
+=========================================================
+
+Lab 1: Understanding ORM with a Retail Inventory System
+-------------------------------------------------------
+- Learned what ORM is and how EF Core maps C# objects to SQL tables.
+- Created a new .NET Console App named "RetailInventory".
+- Installed EF Core packages for SQL Server and Design tools.
+
+Lab 2: Setting Up the Database Context for a Retail Store
+----------------------------------------------------------
+- Created two model classes: Product and Category.
+- Set up AppDbContext inheriting from DbContext.
+- Configured the SQL Server connection string securely.
+
+Lab 3: Using EF Core CLI to Create and Apply Migrations
+--------------------------------------------------------
+- Installed EF Core CLI globally using dotnet-ef.
+- Generated initial migration using `dotnet ef migrations add InitialCreate`.
+- Applied migration using `dotnet ef database update`.
+- Verified the database tables in SQL Server Management Studio.
+
+Lab 4: Inserting Initial Data into the Database
+-----------------------------------------------
+- Inserted sample categories: "Electronics" and "Groceries".
+- Inserted sample products: "Laptop" and "Rice Bag" using AddRangeAsync().
+- Successfully saved data to the database and verified in SSMS.
+
+Lab 5: Retrieving Data from the Database
+----------------------------------------
+- Used ToListAsync() to retrieve all products.
+- Used FindAsync() to find product by ID.
+- Used FirstOrDefaultAsync() to fetch the first expensive product.
+
+Lab 6: Updating and Deleting Records
+------------------------------------
+- Updated the price of "Laptop" from ₹75000 to ₹70000.
+- Deleted the "Rice Bag" product from the Products table.
+
+Lab 7: Writing Queries with LINQ
+--------------------------------
+- Filtered and sorted products where price > ₹1000 in descending order.
+- Projected products into anonymous DTOs (Name and Price only).
