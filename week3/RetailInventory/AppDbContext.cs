@@ -10,7 +10,6 @@ namespace RetailInventory
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            // ✅ Corrected: Connection string is now on a single line
             optionsBuilder.UseSqlServer("Server=BT-22053258;Database=RetailDB;User Id=sa;Password=Nikhil@1234;TrustServerCertificate=True;");
         }
     }
